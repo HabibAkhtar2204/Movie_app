@@ -3,7 +3,7 @@ import React from "react";
 
 const search = () => {
   return (
-    <View>
+    <View className="flex-1 justify-center items-center bg-accent">
       <Text>search</Text>
     </View>
   );
