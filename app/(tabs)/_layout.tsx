@@ -13,6 +13,7 @@ const _layout = () => {
         tabBarItemStyle: {
           justifyContent: "center",
         },
+        tabBarLabelPosition: "beside-icon",
         tabBarStyle: {
           position: "absolute",
           marginHorizontal: 10,
@@ -97,6 +98,7 @@ const _layout = () => {
               color={color}
             />
           ),
+
           tabBarLabel: ({ focused, color }) =>
             focused ? (
               <Text style={{ color, fontSize: 14, fontWeight: "600" }}>
